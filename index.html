@@ -730,24 +730,8 @@ function renderSelect() {
   const wrap = document.createElement("div");
   wrap.className = "select-screen";
   wrap.innerHTML = "<h2>בחרו מבחן תרגול</h2>";
-  const h1 = document.createElement("div");
-  h1.className = "section-title";
-  h1.textContent = "מבחנים קלאסיים — חי, צומח, ארכיאולוגיה, תקופת הברונזה, גיאולוגיה";
-  wrap.appendChild(h1);
-  const sub1 = document.createElement("div");
-  sub1.className = "section-sub";
-  sub1.textContent = "24 אמריקאיות + 6 פתוחות בכל מבחן";
-  wrap.appendChild(sub1);
-  [1, 2, 3, 4, 5].forEach((n) => {
-    const btn = document.createElement("button");
-    btn.className = "exam-btn";
-    btn.textContent = EXAMS[n].title + " — 24 אמריקאיות + 6 פתוחות (60 נק')";
-    btn.onclick = () => renderExam(n);
-    wrap.appendChild(btn);
-  });
   const h2 = document.createElement("div");
   h2.className = "section-title";
-  h2.style.marginTop = "36px";
   h2.textContent = "מבחנים נושאיים — נצרות, יהדות, תקופת הברזל, גבולות ארץ ישראל";
   wrap.appendChild(h2);
   const sub = document.createElement("div");
@@ -759,6 +743,22 @@ function renderSelect() {
     btn.className = "exam-btn";
     btn.textContent = TOPIC_EXAMS[n].title + " — 50 שאלות (100 נק')";
     btn.onclick = () => renderTopicExam(n);
+    wrap.appendChild(btn);
+  });
+  const h1 = document.createElement("div");
+  h1.className = "section-title";
+  h1.style.marginTop = "36px";
+  h1.textContent = "מבחנים קלאסיים — חי, צומח, ארכיאולוגיה, תקופת הברונזה, גיאולוגיה";
+  wrap.appendChild(h1);
+  const sub1 = document.createElement("div");
+  sub1.className = "section-sub";
+  sub1.textContent = "24 אמריקאיות + 6 פתוחות בכל מבחן";
+  wrap.appendChild(sub1);
+  [1, 2, 3, 4, 5].forEach((n) => {
+    const btn = document.createElement("button");
+    btn.className = "exam-btn";
+    btn.textContent = EXAMS[n].title + " — 24 אמריקאיות + 6 פתוחות (60 נק')";
+    btn.onclick = () => renderExam(n);
     wrap.appendChild(btn);
   });
   app.appendChild(wrap);
