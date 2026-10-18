@@ -118,6 +118,24 @@ from הירקון in the south to נחל תנינים in the north; נחל צי�
 Negev and **נחל סער** on the Hermon; עיבל the mount of curse and גריזים of
 blessing.
 
+## The third block: בית שני, רומית, ביזנטית, ארכיאולוגיה קלאסית
+
+For the exam after the four subjects above he named בית שני, התקופה הרומית,
+התקופה הביזנטית and ארכיאולוגיה קלאסית. He said the required knowledge is
+Eyal Miron's online lectures (Haifa Moodle); his own summaries add order and
+timelines; Erez Bratman's Jerusalem tours (City of David, the pilgrims' road,
+the Western Wall tunnels, the Herodian quarter) are review for the same
+material. Bat-Zion Ziv's "הגדרת מושגים" list for each unit is the syllabus —
+every concept on it deserves a question. Exams 11–15 (`TEMPLE_EXAMS`, built
+by `tools/build_temple_exams.py`) cover it; the NotebookLM notebooks for the
+three units and the two tour days are the source.
+
+Facts the lectures state that differ from common shortcuts: no mass exile in
+70 (the decline was gradual); "דרך עולי הרגל" was paved under the procurators
+(Pilate coins under the paving), not by Herod; Aristobulus I, not Yannai, was
+the first Hasmonean "king"; the Byzantine period is not a conquest — it is the
+same empire turning Christian.
+
 ## Using this file
 
 Treat it as his emphasis list, not as a closed scope — he said new questions
