@@ -126,7 +126,7 @@ Eyal Miron's online lectures (Haifa Moodle); his own summaries add order and
 timelines; Erez Bratman's Jerusalem tours (City of David, the pilgrims' road,
 the Western Wall tunnels, the Herodian quarter) are review for the same
 material. Bat-Zion Ziv's "הגדרת מושגים" list for each unit is the syllabus —
-every concept on it deserves a question. Exams 11–15 (`TEMPLE_EXAMS`, built
+every concept on it deserves a question. Exams 11–18 (`TEMPLE_EXAMS`, built
 by `tools/build_temple_exams.py`) cover it; the NotebookLM notebooks for the
 three units and the two tour days are the source.
 
@@ -142,3 +142,17 @@ Treat it as his emphasis list, not as a closed scope — he said new questions
 can appear, but the directions and subjects will be the ones already asked.
 When the user gives fresh material for a new exam, that material governs; this
 file governs the house style, the traps, and the subjects it already covers.
+
+### Review session before the Second Temple–Byzantine exam (Zoom, October 2026)
+
+Exams 16–18 are built on it. What he stressed:
+
+- **Eyal Miron's films decide** where a source conflicts with another lecturer: the Ministry approved them. Second Temple starts at **Cyrus's declaration (538)**, the "gong"; the exile years (586–538) are learnt briefly, chiefly **Gedaliah ben Ahikam** (he has a fast day). The Byzantine period ends with the **conquest of Jerusalem (638)**; Yarmuk (636) is the decisive battle on the way.
+- **Jerusalem's walls by Josephus's count**: first — Hasmonean (Nehemiah only repaired breaches, in 52 days); second — attributed to Herod, course unknown, Golgotha outside it; third — Agrippa I (41–44), finished by the rebels, first to fall; then Eudocia (5th c.).
+- **Aqueducts**: lower to the Temple Mount via Wilson's arch, for the Temple's needs; upper to Herod's palace; Arub/Biar feed Solomon's Pools. Robinson's arch = the stair to the Royal Stoa.
+- **Second Temple synagogues**: Torah reading and assembly, **no prayer, no orientation, no figures** (Theodotus, Magdala, Gamla, Herodium, Masada). Byzantine synagogues: zodiacs (Sepphoris, Beit Alfa, Hammat Tiberias); Capernaum in white limestone.
+- **People in order**: Alexander → Diadochi → Syrian wars → Antiochus III (good) / IV (bad) → Hasmoneans (battles on the roads to Jerusalem) → Pompey 63 → Antipater, Herod → Archelaus deposed 6 CE → Pilate → Agrippa I → Florus → revolt began in Caesarea (Jews vs gentiles at a synagogue) → Vespasian/Titus, Berenice → Hadrian (spelt with ה or א) → Diocletian (limes) → Constantine → Julian → Theodosius (state religion; Nicaea was doctrinal) → Heraclius → 638.
+- **Revolts**: Great Revolt 66–73, Diaspora 115–117, Bar Kokhba 132–135 (source: Cassius Dio; whether Jerusalem was taken is **unknown**), Gallus 351 (+363 earthquake).
+- **Classical architecture**: the parts of the order and the entablature **by heart** (Vitruvius; Absalom's tomb).
+
+Exam 18 is made of the Ministry's own questions on these subjects: the official-key sittings first, then the 2016–19 sittings and Efrat Nakash's 2000–2017 collection, each answer checked. The explanation names the sitting.
